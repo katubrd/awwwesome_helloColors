@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css?family=Prata');
+@import url('https://fonts.googleapis.com/css?family=Asap:700');
+@import url('https://fonts.googleapis.com/css?family=Lato:900');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+html {
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+header {
+  display: grid;
+  -ms-grid-template-columns: 50% 25% 25%;
+  grid-template-columns: 50% 25% 25%;
+  width: 100%;
+  height: 93vh;
+  font-size: 100%;
+}
+
+.hello {
+  background-color: #003170;
+  position: relative;
+}
+
+nav {
+  padding: 3%;
+  text-align: center;
+}
+
+nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+}
+
+nav > ul > li {
+  height: 2em;
+  line-height: 1.3em;
+  width: 75%;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  text-decoration-line: none;
+  font-family: 'Prata';
+  color: #75e3dd;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+
+.capitalLetter {
+  position: absolute;
+  font-size: 75vh;
+  font-family: 'Lato';
+  bottom: -83vh;
+  color: #2663af;
+}
+
+.welcom_text {
+  position: absolute;
+  z-index: 3;
+  top: 53.5vh;
+  left: 31%;
+  font-family: 'Prata';
+  font-size: 21vh;
+  color: #fff;
+  margin: 0;
+}
+
+.welcom_text::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.03em;
+  background: #fff;
+  margin-top: -5vh;
+}
+
+.welcom_description {
+  position: absolute;
+  z-index: 3;
+  top: 79vh;
+  left: 28.5%;
+  font-family: 'Inconsolata';
+  font-size:1.9vh;
+  color: #fff;
+  text-align: right;
+  letter-spacing: 0.07em;
+}
+
+.small {
+  tranform: scale(0.6);
+  -webkit-transform:scale(0.6);
+  bottom: -87.7vh;
+}
+
+.design {
+  background-color: #75e3dd;
+}
+
+.letter_d {
+  left: 47%;
+  color: #41ccc4;
+}
+
+.design_description {
+  left: 53%;
+  color: #16736e;
+}
+
+.project {
+  background-color: #f4979c;
+}
+
+.letter_p {
+  left: 73%;
+  color: #f3747b;
+}
+
+.project_description {
+  left: 79%;
+  color: #be4249;
+}
+
+.invitation {
+  width: 100%;
+  height:
+}
+
+.scroll_description {
+  text-align: center;
+  font-family: 'Inconsolata';
+  font-size: 1.9vh;
+  line-height: 3.8vh;
+  letter-spacing: 0.07em;
+  color: #2864b1;
+}
+
+.portfolio {
+  display: grid;
+  /*grid-template-columns: 7% 43% 43% 7%;*/
+  grid-template-rows: 10% 30% 30% 30%;
+  width: 100%;
+  height: 210vh;
+  justify-items: center;
+}
+
+.header{
+  margin-right: 45vw;
+  font-size: 11vh;
+  font-family: 'Prata';
+  margin-top: 3vh;
+  letter-spacing: 0.3em;
+}
+
+.portfolio_header {
+  color: #75e3dd;
+}
+
+.team_header {
+  color: #003170;
+  margin-right: 50vw;
+}
+
+.row {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.item_photo {
+  position: relative;
+}
+
+.work_range {
+  position: absolute;
+  display: inline-block;
+  z-index: 3;
+  font-family: 'Prata';
+  font-size: 3.7vh;
+  color: #16736e;
+}
+
+.left_project {
+  transform: rotate(-90deg);
+  top: 6.5vh;
+  left: -6.5vw;
+}
+
+.right_project {
+  transform: rotate(90deg);
+  top: 9vh;
+  right: -7.5vw;
+}
+
+.work_range::before {
+  display: block;
+  position: absolute;
+  z-index: -2;
+  content: "";
+  width: 100%;
+  height: 3.7vh;
+  background: #75e3dd;
+  top: -1vh;
+}
+
+.project_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+}
+
+.item_description {
+  width: 65%;
+  justify-self: center;
+}
+
+.item_title {
+  font-family: 'Prata';
+  font-size: 5vh;
+  color: #16736e;
+}
+
+.item_details {
+  font-family: 'Inconsolata';
+  font-size: 1.7vh;
+  color: #16736e;
+}
+
+.right_margin {
+  margin-right: 5vw;
+  text-align: left;
+}
+
+.left_margin {
+  text-align: right;
+  margin-left: 5vw;
+}
+
+.item_link{
+  margin-top: 5vh;
+}
+
+.item_link > a {
+  text-decoration: none;
+  text-decoration-line: none;
+  font-family: 'Inconsolata';
+  font-size: 2vh;
+  font-weight: bold;
+  color: #75e3dd;
+}
+
+.team {
+  width: 100%;
+  height: 115vh;
+  display: grid;
+  grid-template-rows: 20% 80%;
+  justify-items: center;
+}
+
+.team_general {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.creative_team {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.creative_team > p {
+  position: absolute;
+  z-index: 3;
+  width: 30%;
+  text-align: left;
+  margin-left: 30%;
+  margin-top: 9%;
+  font-family: 'Inconsolata';
+  font-size: 2vh;
+  color: #fff;
+}
+
+.creative_team > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.team_description {
+  width: 57%;
+  margin-left: 3vw;
+}
+
+.team_description_header {
+  font-family: 'Prata';
+  font-size: 6.5vh;
+  color: #306fbf;
+  margin-top: 0.7vh;
+}
+
+.team_txt {
+  font-family: 'Inconsolata';
+  color: #444355;
+  font-size: 1.7vh;
+  letter-spacing: 0.1vw;
+}
+
+.bold_txt {
+  font-weight: bold;
+}
+
+.contact {
+  width: 100%;
+  height: 75vh;
+  margin-top: 7vh;
+}
+
+.contact_header {
+  color: #f3747b;
+  margin-left: 16.5vw;
+}
+
+.contact_row {
+  width: 100%;
+  justify-items: center;
+}
+
+.contact_form {
+  width: 50%;
+  margin-left: 15vh;
+}
+
+.form_fieldset {
+    width: 100%;
+    border: none;
+    position: relative;
+}
+
+.form_fieldset:focus {
+    border: none;
+}
+
+.form_space {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.2vh solid #f3747b;
+    width: 100%;
+    height: 3.5vh;
+    font-family: 'Inconsolata';
+    font-size: 1.5vh;
+    color: #fff;
+    margin-top: 2.5vh;
+}
+
+.form_space:focus, .form_space:hover, .form_space:active {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid #f3747b;
+    width: 100%;
+    height: 3.5vh;
+    outline: none;
+}
+
+.message, .message:focus, .message:hover, .message:active {
+    border: none;
+    border-bottom: 0.2vh solid #f3747b;
+    height: 3.5vh;
+}
+
+.form_text {
+    font-size: 12px;
+    font-family: 'Inconsolata';
+    color: #440c74;
+}
+
+.our_office {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 70%;
+  margin-right: 15vw;
+}
+
+.our_adress {
+  width: 70%;
+}
+
+.our_adress > p {
+  font-family: 'Inconsolata';
+  font-size: 1.9vh;
+  margin-top: 3vh;
+  color: #29273c;
+}
+
+footer {
+  width: 100%;
+  height: 33vh;
+  position: relative;
+  background-color: #f4979c;
+  overflow: hidden;
+}
+
+.footer_deco {
+  width: 70%;
+  position: absolute;
+  left: 15vw;
+  bottom: -3vh;
+}
+
+.social_links {
+  width: 45%;
+  height: 21vh;
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15%;
+  align-items: end;
+  position: absolute;
+  z-index: 3;
+  left: 35vw;
+}
+
+.social_ikon {
+  width: 100%;
+}
+
+.social_ikon > svg {
+  width: 73%;
+}
+
+.footer_txt {
+  position: absolute;
+  z-index: 3;
+  font-family: 'Inconsolata';
+  font-size: 1.9vh;
+  color: #fff;
+  bottom: 2vh;
+  left: 17vw;
+
+}
